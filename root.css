@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Onest:700|Noto%20Sans%20NKo:400');
+
+html {
+  height: 100%;
+  background-color: var(--background);
+}
+
+body {
+  height: 100%;
+  background-color: var(--background);
+  font-family: 'Noto Sans NKo';
+  font-weight: 400;
+  color: var(--text);
+}
+
+main {
+  padding: 1rem
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Onest';
+  font-weight: 700;
+}
+
+html {font-size: 100%;} /* 16px */
+
+h1 {font-size: 3.053rem; /* 48.8px */}
+
+h2 {font-size: 2.442rem; /* 39.04px */}
+
+h3 {font-size: 1.954rem; /* 31.2px */}
+
+h4 {font-size: 1.563rem; /* 24.96px */}
+
+h5 {font-size: 1.250rem; /* 20px */}
+
+small {font-size: 0.800rem; /* 12.8px */}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --text: #0c0a01;
+    --background: #fbfaf3;
+    --primary: #ebde27;
+    --secondary: #97d998;
+    --accent: #6dca91;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #fefbf1;
+    --background: #0b0b04;
+    --primary: #d7ca14;
+    --secondary: #276828;
+    --accent: #359259;
+  }
+}
